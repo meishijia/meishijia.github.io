@@ -6,21 +6,18 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>hexo建博历程 | Happy Life</title>
+  <title>技术学习 | Happy Life</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="####一、安装nodejs下载官网上编译好的文件然后然后放到要安装的目录(~/software/)下解压
-tar zxvf node-v4.0.0-linux-x64.tar.gz再将目录重命名为nodejs，然后使用如下命令为node和npm建立一个链接sudo ln -s ~/software/nodejs/bin/node /usr/local/bin/nodesudo ln -s ~/s">
-<meta property="og:type" content="article">
-<meta property="og:title" content="hexo建博历程">
-<meta property="og:url" content="http://yoursite.com/2017/01/13/hexo建博历程.html">
+  <meta name="description" content="要笑要自由，学会爱与被爱">
+<meta property="og:type" content="website">
+<meta property="og:title" content="技术学习">
+<meta property="og:url" content="http://yoursite.com/技术学习/index.html">
 <meta property="og:site_name" content="Happy Life">
-<meta property="og:description" content="####一、安装nodejs下载官网上编译好的文件然后然后放到要安装的目录(~/software/)下解压
-tar zxvf node-v4.0.0-linux-x64.tar.gz再将目录重命名为nodejs，然后使用如下命令为node和npm建立一个链接sudo ln -s ~/software/nodejs/bin/node /usr/local/bin/nodesudo ln -s ~/s">
-<meta property="og:updated_time" content="2017-01-13T11:38:04.742Z">
+<meta property="og:description" content="要笑要自由，学会爱与被爱">
+<meta property="og:updated_time" content="2017-01-17T14:46:37.240Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="hexo建博历程">
-<meta name="twitter:description" content="####一、安装nodejs下载官网上编译好的文件然后然后放到要安装的目录(~/software/)下解压
-tar zxvf node-v4.0.0-linux-x64.tar.gz再将目录重命名为nodejs，然后使用如下命令为node和npm建立一个链接sudo ln -s ~/software/nodejs/bin/node /usr/local/bin/nodesudo ln -s ~/s">
+<meta name="twitter:title" content="技术学习">
+<meta name="twitter:description" content="要笑要自由，学会爱与被爱">
   
     <link rel="alternative" href="/atom.xml" title="Happy Life" type="application/atom+xml">
   
@@ -166,39 +163,27 @@ tar zxvf node-v4.0.0-linux-x64.tar.gz再将目录重命名为nodejs，然后使�
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-hexo建博历程" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="page-undefined" class="article article-type-page " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      hexo建博历程
+      技术学习
     </h1>
   
 
         
-        <a href="/2017/01/13/hexo建博历程.html" class="archive-article-date">
-  	<time datetime="2017-01-13T08:19:25.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-01-13</time>
+        <a href="/技术学习/index.html" class="archive-article-date">
+  	<time datetime="2017-01-17T14:46:37.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-01-17</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>####一、安装nodejs<br>下载官网上编译好的文件然后<br>然后放到要安装的目录(~/software/)下解压</p>
-<p>tar zxvf node-v4.0.0-linux-x64.tar.gz<br>再将目录重命名为nodejs，然后使用如下命令为node和npm建立一个链接<br>sudo ln -s ~/software/nodejs/bin/node /usr/local/bin/node<br>sudo ln -s ~/software/nodejs/bin/npm /usr/local/bin/npm</p>
-<p>查看是否安装成功<br>/usr/local/bin/node -v<br>v4.0.0<br>/usr/local/bin/npm -v<br>2.14.2<br><a id="more"></a></p>
-<p>####二、安装好nodejs后安装hexo<br>sudo npm install hexo-cli -g（有陷阱）</p>
-<p>然后我建立了一个文件夹用来装博客文件。<br>在该文件夹下执行 hexo init<br>但是出现 不能找到命令 hexo<br>在/etc/enviroment 中添加/home/meishijia/software/nodejs/bin<br>然后重启<br>就可以了</p>
-<p>然后执行 hexo init<br>又是各种不对，执行npm install 也不行。</p>
-<p>最后，删除hexo：<br>sudo npm uninstall hexo-cli -g</p>
-<p>进入root权限，因为实在怕权限不够。<br>然后重新安装hexo，npm install hexo-cli -g</p>
-<p>####三、创建博客<br>以后就建立文件夹，hexo init（root权限）<br>就好了<br>然后在网上找了一个好看一点的主题，yilia，从github上clone下来。<br>修改Blog/_config.yml文件：<br>theme: yilia    //默认为landscape</p>
-<p>配置好：<br>git config –global user.email 1046977719@qq.com<br>git config –global user.name meishijia<br>然后布置在github上：hexo deploy<br>出现：本地是新换的主题然而github上的页面是默认的主题。<br>我把页面重新生成的一下：<br>hexo generate<br>hexo deploy<br>然后再重新打开就好了。</p>
-<p>####配置：<br>头像放在themes文件夹下，我用的主题是yilia，所以放在/home/meishijia/Blog/themes/yilia/source/img下面<br>然后将主题下的配置文件中的avatar字段设置成：/img/avatar.jpg</p>
-<p>用root权限打开retext，里面无法输入中文</p>
-
+        
       
 
       
@@ -287,7 +272,7 @@ tar zxvf node-v4.0.0-linux-x64.tar.gz再将目录重命名为nodejs，然后使�
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="http://s.jiathis.com/qrcode.php?url=http://yoursite.com/2017/01/13/hexo建博历程.html" alt="微信分享二维码">
+      <img src="http://s.jiathis.com/qrcode.php?url=http://yoursite.com/技术学习/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -299,20 +284,6 @@ tar zxvf node-v4.0.0-linux-x64.tar.gz再将目录重命名为nodejs，然后使�
 </article>
 
   
-<nav id="article-nav">
-  
-    <a href="/2017/01/16/永恒的孤独.html" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          永恒的孤独
-        
-      </div>
-    </a>
-  
-  
-</nav>
-
 
 
 
@@ -345,7 +316,7 @@ tar zxvf node-v4.0.0-linux-x64.tar.gz再将目录重命名为nodejs，然后使�
 	var yiliaConfig = {
 		mathjax: true,
 		isHome: false,
-		isPost: true,
+		isPost: false,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
