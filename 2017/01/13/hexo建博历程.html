@@ -8,19 +8,19 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>hexo建博历程 | Happy Life</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="####一、安装nodejs下载官网上编译好的文件然后然后放到要安装的目录(~/software/)下解压
-tar zxvf node-v4.0.0-linux-x64.tar.gz再将目录重命名为nodejs，然后使用如下命令为node和npm建立一个链接sudo ln -s ~/software/nodejs/bin/node /usr/local/bin/nodesudo ln -s ~/s">
+  <meta name="description" content="####一、安装nodejs下载官网上编译好的文件然后放到要安装的目录(~/software/)下解压tar zxvf node-v4.0.0-linux-x64.tar.gz
+再将目录重命名为nodejs，然后使用如下命令为node和npm建立一个链接sudo ln -s ~/software/nodejs/bin/node /usr/local/bin/nodesudo ln -s ~/sof">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo建博历程">
 <meta property="og:url" content="http://yoursite.com/2017/01/13/hexo建博历程.html">
 <meta property="og:site_name" content="Happy Life">
-<meta property="og:description" content="####一、安装nodejs下载官网上编译好的文件然后然后放到要安装的目录(~/software/)下解压
-tar zxvf node-v4.0.0-linux-x64.tar.gz再将目录重命名为nodejs，然后使用如下命令为node和npm建立一个链接sudo ln -s ~/software/nodejs/bin/node /usr/local/bin/nodesudo ln -s ~/s">
-<meta property="og:updated_time" content="2017-01-18T11:53:16.956Z">
+<meta property="og:description" content="####一、安装nodejs下载官网上编译好的文件然后放到要安装的目录(~/software/)下解压tar zxvf node-v4.0.0-linux-x64.tar.gz
+再将目录重命名为nodejs，然后使用如下命令为node和npm建立一个链接sudo ln -s ~/software/nodejs/bin/node /usr/local/bin/nodesudo ln -s ~/sof">
+<meta property="og:updated_time" content="2017-01-19T04:29:38.837Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo建博历程">
-<meta name="twitter:description" content="####一、安装nodejs下载官网上编译好的文件然后然后放到要安装的目录(~/software/)下解压
-tar zxvf node-v4.0.0-linux-x64.tar.gz再将目录重命名为nodejs，然后使用如下命令为node和npm建立一个链接sudo ln -s ~/software/nodejs/bin/node /usr/local/bin/nodesudo ln -s ~/s">
+<meta name="twitter:description" content="####一、安装nodejs下载官网上编译好的文件然后放到要安装的目录(~/software/)下解压tar zxvf node-v4.0.0-linux-x64.tar.gz
+再将目录重命名为nodejs，然后使用如下命令为node和npm建立一个链接sudo ln -s ~/software/nodejs/bin/node /usr/local/bin/nodesudo ln -s ~/sof">
   
     <link rel="alternative" href="/atom.xml" title="Happy Life" type="application/atom+xml">
   
@@ -186,18 +186,16 @@ tar zxvf node-v4.0.0-linux-x64.tar.gz再将目录重命名为nodejs，然后使�
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>####一、安装nodejs<br>下载官网上编译好的文件然后<br>然后放到要安装的目录(~/software/)下解压</p>
-<p>tar zxvf node-v4.0.0-linux-x64.tar.gz<br>再将目录重命名为nodejs，然后使用如下命令为node和npm建立一个链接<br>sudo ln -s ~/software/nodejs/bin/node /usr/local/bin/node<br>sudo ln -s ~/software/nodejs/bin/npm /usr/local/bin/npm</p>
-<p>查看是否安装成功<br>/usr/local/bin/node -v<br>v4.0.0<br>/usr/local/bin/npm -v<br>2.14.2<br><a id="more"></a></p>
+        <p>####一、安装nodejs<br>下载官网上编译好的文件<br>然后放到要安装的目录(~/software/)下解压<br>tar zxvf node-v4.0.0-linux-x64.tar.gz</p>
+<p>再将目录重命名为nodejs，然后使用如下命令为node和npm建立一个链接<br>sudo ln -s ~/software/nodejs/bin/node /usr/local/bin/node<br>sudo ln -s ~/software/nodejs/bin/npm /usr/local/bin/npm<br><a id="more"></a><br>查看是否安装成功<br>/usr/local/bin/node -v<br>v4.0.0<br>/usr/local/bin/npm -v<br>2.14.2</p>
 <p>####二、安装好nodejs后安装hexo<br>sudo npm install hexo-cli -g（有陷阱）</p>
-<p>然后我建立了一个文件夹用来装博客文件。<br>在该文件夹下执行 hexo init<br>但是出现 不能找到命令 hexo<br>在/etc/enviroment 中添加/home/meishijia/software/nodejs/bin<br>然后重启<br>就可以了</p>
+<p>然后我建立了一个文件夹用来装博客文件。<br>在该文件夹下执行 hexo init<br>但是出现 不能找到命令 hexo<br>在/etc/enviroment 中添加/home/meishijia/software/nodejs/bin<br>然后重启就可以了</p>
 <p>然后执行 hexo init<br>又是各种不对，执行npm install 也不行。</p>
-<p>最后，删除hexo：<br>sudo npm uninstall hexo-cli -g</p>
-<p>进入root权限，因为实在怕权限不够。<br>然后重新安装hexo，npm install hexo-cli -g</p>
-<p>####三、创建博客<br>以后就建立文件夹，hexo init（root权限）<br>就好了<br>然后在网上找了一个好看一点的主题，yilia，从github上clone下来。<br>修改Blog/_config.yml文件：<br>theme: yilia    //默认为landscape</p>
-<p>配置好：<br>git config –global user.email 1046977719@qq.com<br>git config –global user.name meishijia<br>然后布置在github上：hexo deploy<br>出现：本地是新换的主题然而github上的页面是默认的主题。<br>我把页面重新生成的一下：<br>hexo generate<br>hexo deploy<br>然后再重新打开就好了。</p>
+<p>最后，删除hexo：<br>sudo npm uninstall hexo-cli -g<br>进入root权限，因为实在怕权限不够。<br>然后重新安装hexo，npm install hexo-cli -g</p>
+<p>####三、创建博客<br>以后就建立文件夹，hexo init（root权限）<br>就好了<br>然后在网上找了一个好看一点的主题，yilia，从github上clone下来。<br>修改Blog/_config.yml文件：<br>theme: yilia    //默认为landscape<br>配置好：<br>git config –global user.email 1046977719@qq.com<br>git config –global user.name meishijia<br>然后布置在github上：hexo deploy<br>出现：本地是新换的主题然而github上的页面是默认的主题。<br>我把页面重新生成的一下：<br>hexo generate<br>hexo deploy<br>然后再重新打开就好了。</p>
 <p>####配置：<br>头像放在themes文件夹下，我用的主题是yilia，所以放在/home/meishijia/Blog/themes/yilia/source/img下面<br>然后将主题下的配置文件中的avatar字段设置成：/img/avatar.jpg<br>同理，要设置打赏中支付宝和微信的二维码，将图片存在themes/yilia/source/img下，然后更改主题文件夹下面的配置文件的相应字段</p>
-<p>对自己的文章进行分，在模板文件夹下的post.md中加入categories字段,在实际写作当中开头进行categories的设置<br>并且在主题文件夹下面的配置文件设置menu字段。</p>
+<p>对自己的文章进行分类，在模板文件夹下的post.md中加入categories字段,在实际写作当中开头进行categories的设置<br>并且在主题文件夹下面的配置文件设置menu字段。</p>
+<p>####绑定域名<br>首先是在阿里云弄了个域名，将DNS提供商改成了DNSPod的，再添加记录，然后在source文件夹下面添加CNAME文件，里面内容只有自己的域名，再部署到github上。然后就可以用自己的域名访问网站了。</p>
 <p>用root权限打开retext，里面无法输入中文</p>
 
       
@@ -238,6 +236,21 @@ tar zxvf node-v4.0.0-linux-x64.tar.gz再将目录重命名为nodejs，然后使�
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">hexo</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">博客</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
 	<div class="article-category tagcloud">
 		<i class="icon-book icon"></i>
@@ -442,6 +455,22 @@ MathJax.Hub.Queue(function() {
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">hexo</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">博客</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">-卷福 -神夏 -完结</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">-太空旅客 -思考</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
