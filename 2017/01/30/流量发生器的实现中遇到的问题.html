@@ -6,17 +6,21 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives | Happy Life</title>
+  <title>流量发生器的实现中遇到的问题 | Happy Life</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="要笑要自由，学会爱与被爱">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Happy Life">
-<meta property="og:url" content="http://yoursite.com/archives/index.html">
+  <meta name="description" content="###概述写这篇文章就是记录以下我在实现流量发生器过程中遇到的一些问题吧，不管大的大的小的。因为之前做过一些工作，比如crafter，makefile文件怎么写阿等等，现在时间比较紧急，就现不回忆了。
+命令行的实现这个流量发生器本来想作成界面的，于是考虑了Qt，但是没有下载下来，于是自己考虑实现命令行。1.使用getopt函数2.switch（）括号中不能是string类型的3.计时函数用的clo">
+<meta property="og:type" content="article">
+<meta property="og:title" content="流量发生器的实现中遇到的问题">
+<meta property="og:url" content="http://yoursite.com/2017/01/30/流量发生器的实现中遇到的问题.html">
 <meta property="og:site_name" content="Happy Life">
-<meta property="og:description" content="要笑要自由，学会爱与被爱">
+<meta property="og:description" content="###概述写这篇文章就是记录以下我在实现流量发生器过程中遇到的一些问题吧，不管大的大的小的。因为之前做过一些工作，比如crafter，makefile文件怎么写阿等等，现在时间比较紧急，就现不回忆了。
+命令行的实现这个流量发生器本来想作成界面的，于是考虑了Qt，但是没有下载下来，于是自己考虑实现命令行。1.使用getopt函数2.switch（）括号中不能是string类型的3.计时函数用的clo">
+<meta property="og:updated_time" content="2017-02-07T07:21:18.003Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Happy Life">
-<meta name="twitter:description" content="要笑要自由，学会爱与被爱">
+<meta name="twitter:title" content="流量发生器的实现中遇到的问题">
+<meta name="twitter:description" content="###概述写这篇文章就是记录以下我在实现流量发生器过程中遇到的一些问题吧，不管大的大的小的。因为之前做过一些工作，比如crafter，makefile文件怎么写阿等等，现在时间比较紧急，就现不回忆了。
+命令行的实现这个流量发生器本来想作成界面的，于是考虑了Qt，但是没有下载下来，于是自己考虑实现命令行。1.使用getopt函数2.switch（）括号中不能是string类型的3.计时函数用的clo">
   
     <link rel="alternative" href="/atom.xml" title="Happy Life" type="application/atom+xml">
   
@@ -162,89 +166,75 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-流量发生器的实现中遇到的问题" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2017" class="archive-year">2017</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/02/07/什么是生命所不能承受之轻.html" class="archive-article-date">
-  	<time datetime="2017-02-07T06:36:23.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-02-07</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/02/07/什么是生命所不能承受之轻.html">什么是生命所不能承受之轻</a>
+    <h1 class="article-title" itemprop="name">
+      流量发生器的实现中遇到的问题
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">读书有感</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">思考</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/时光知味/" class="article-tag-list-link color5">时光知味</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/01/30/流量发生器的实现中遇到的问题.html" class="archive-article-date">
+        
+        <a href="/2017/01/30/流量发生器的实现中遇到的问题.html" class="archive-article-date">
   	<time datetime="2017-01-30T11:09:11.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-01-30</time>
 </a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/01/30/流量发生器的实现中遇到的问题.html">流量发生器的实现中遇到的问题</a>
-    </h1>
-  
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>###概述<br>写这篇文章就是记录以下我在实现流量发生器过程中遇到的一些问题吧，不管大的大的小的。因为之前做过一些工作，比如crafter，makefile文件怎么写阿等等，现在时间比较紧急，就现不回忆了。</p>
+<h3 id="命令行的实现"><a href="#命令行的实现" class="headerlink" title="命令行的实现"></a>命令行的实现</h3><p>这个流量发生器本来想作成界面的，于是考虑了Qt，但是没有下载下来，于是自己考虑实现命令行。<br>1.使用getopt函数<br>2.switch（）括号中不能是string类型的<br>3.计时函数用的clock函数<br>4.string转int，使用std::string str;int i = atoi(str.c_str());<br>5.本来想直接获得本机ip地址和mac地址，但是目前用的传入iface参数，在通过iface获得前面两个<br>6.还有问题，即，在某段时间不断的发重复的包，while循环里一直调用函数，降低效率，我想的是，先构造包，然后重复发这个包，当然这个可以后面实现。我现在只是搭个框架。<br>7.fprint函数，原来是格式化输出，当然，在优化帮助手册的时候会用到</p>
+<h3 id="实现ARPPing"><a href="#实现ARPPing" class="headerlink" title="实现ARPPing"></a>实现ARPPing</h3><p>首先发出这个协议的包，需要什么：<br>1.源主机IP地址和MAC地址（这应该是为了应答主机将报文发给你的时候需要）<br>2.目的主机的IP地址<br>3.以太网包头部设置的源mac目的mac设置为全1（广播地址）。ARP报文头部各字段，设置了源ip，源mac、请求类型。</p>
+<h3 id="实现ICMP的echo请求回显（查询报文）"><a href="#实现ICMP的echo请求回显（查询报文）" class="headerlink" title="实现ICMP的echo请求回显（查询报文）"></a>实现ICMP的echo请求回显（查询报文）</h3><p>ICMP报文在IP报文内部。分为查询报文和差错报告报文。ping就是应用的ICMP协议的查询报文。<br>另外crafter中有一个类可构造用户自己的数据 RawLayer</p>
+<h3 id="实现DHCPRequest"><a href="#实现DHCPRequest" class="headerlink" title="实现DHCPRequest"></a>实现DHCPRequest</h3><p>1.DHCP动态域名配置协议有四个步骤（发现、提供、选择、确认），在发现和选择阶段会向服务器发送discover和request类型的报文。<br>2.DHCP报文包含在udp报文中，再包含在IP报文中，再被包含在以太网包中被发送。<br>3.本来想自己申请指定的ip地址但是好像不行。<br>4.这个需要：iface。</p>
+<h3 id="实现DNSQuery"><a href="#实现DNSQuery" class="headerlink" title="实现DNSQuery"></a>实现DNSQuery</h3><p>需要：iface和需要解析的域名。在命令行中没有指定的DNS服务器。在程序中将DNS服务器ip设为一个通用ip：114.114.114.114</p>
+<h3 id="DNS-Spoofing-（DNS欺骗攻击）"><a href="#DNS-Spoofing-（DNS欺骗攻击）" class="headerlink" title="DNS Spoofing （DNS欺骗攻击）"></a>DNS Spoofing （DNS欺骗攻击）</h3><h3 id="dumppcap"><a href="#dumppcap" class="headerlink" title="dumppcap"></a>dumppcap</h3><p>1.百度了下，在计算机领域dump应该是转储的意思。<br>2.后缀为pcap的文件应该是针对网络接口端口和协议的数据包截取到的数据文件保存为.pcap文件。</p>
+<h3 id="tags的用法"><a href="#tags的用法" class="headerlink" title="tags的用法"></a>tags的用法</h3><p>1.上一级，ctl+]<br>  下一级，ctl+t</p>
+<h3 id="c-相关问题"><a href="#c-相关问题" class="headerlink" title="c++相关问题"></a>c++相关问题</h3><p>1.char const <em> ; const char </em> ;<br>2.const string&amp; //string 类型的引用<br>3.指针和引用的区别:指针是一个变量，存储着一个地址，指向一个内存单元；引用跟原来的变量实质上是一个东西，只不过是源变量的另一个别名。</p>
+<h3 id="命名规则"><a href="#命名规则" class="headerlink" title="命名规则"></a>命名规则</h3><p>1.函数命名，单词组成，每个单词首字母大写,使用动宾词组的形式；<br>2.变量名，在此不采用匈牙利命名，就每个单词首字母大写,但是单个单词首字母没有大写。</p>
 
-        <div class="article-info info-on-right">
-          
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/img/aliPay.png">
+                      <span class="reward-type">支付宝</span>
+                    </div>
+                    
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/img/weixinPay.png">
+                      <span class="reward-type">微信</span>
+                    </div>
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -256,7 +246,7 @@
 		</ul>
 	</div>
 
-          
+      
 	<div class="article-category tagcloud">
 		<i class="icon-book icon"></i>
 		<ul class="article-tag-list">
@@ -269,282 +259,111 @@
 	</div>
 
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="http://s.jiathis.com/qrcode.php?url=http://yoursite.com/2017/01/30/流量发生器的实现中遇到的问题.html" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/01/21/sendip安装及使用.html" class="archive-article-date">
-  	<time datetime="2017-01-21T11:15:52.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-01-21</time>
-</a>
-        </div>
-    	 
+<nav id="article-nav">
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/01/21/sendip安装及使用.html">sendip安装及使用</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">sendip</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">ubuntu14.04</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/技术学习/" class="article-tag-list-link color5">技术学习</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/01/21/ipfer的安装及使用.html" class="archive-article-date">
-  	<time datetime="2017-01-21T05:12:37.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-01-21</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/01/21/ipfer的安装及使用.html">ipfer的安装及使用</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">iperf</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/技术学习/" class="article-tag-list-link color5">技术学习</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/01/19/美好终将落幕.html" class="archive-article-date">
-  	<time datetime="2017-01-19T05:11:07.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-01-19</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/01/19/美好终将落幕.html">You Lower The IQ of The Whole Street</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">卷福</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">神夏</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">完结</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/时光知味/" class="article-tag-list-link color5">时光知味</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/01/16/永恒的孤独.html" class="archive-article-date">
-  	<time datetime="2017-01-16T05:51:43.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-01-16</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/01/16/永恒的孤独.html">永恒的孤独</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">思考</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">太空旅客</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/时光知味/" class="article-tag-list-link color5">时光知味</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/01/13/hexo建博历程.html" class="archive-article-date">
-  	<time datetime="2017-01-13T08:19:25.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-01-13</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/01/13/hexo建博历程.html">hexo建博历程</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">hexo</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">博客</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/技术学习/" class="article-tag-list-link color5">技术学习</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
+    <a href="/2017/02/07/什么是生命所不能承受之轻.html" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          什么是生命所不能承受之轻
+        
+      </div>
+    </a>
   
   
-    </div></section>
+    <a href="/2017/01/21/sendip安装及使用.html" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">sendip安装及使用</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+
+
+
+
+  
+    <div class="duoshuo"></div>
   
 
-    
+
+
+<section id="comments">
+  <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'meishijia'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
 
 
           </div>
@@ -577,8 +396,8 @@ var _hmt = _hmt || [];
 	var yiliaConfig = {
 		mathjax: true,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: true,
